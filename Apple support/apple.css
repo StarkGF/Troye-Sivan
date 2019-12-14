@@ -54,7 +54,7 @@ a:link{
     
 }
 #search p{
-    width:50%;
+    width:450px;
     height:47px;
     margin-bottom:30px;
     margin-top: 15px;
@@ -325,7 +325,7 @@ input::-webkit-input-placeholder{
 #plan{
     height:780px;
     text-align: center;
-    width: 1000px;
+    width: 600px;
     margin: 0 auto;
 }
 .plans{
@@ -482,9 +482,9 @@ input::-webkit-input-placeholder{
 
 @media screen and ( max-width:980px )
 {
-    .disp{
+     .disp{
         visibility: hidden;
-    }
+    } 
     #nav{
         position: relative;
         
@@ -511,6 +511,7 @@ input::-webkit-input-placeholder{
     }
     #products{
         width: 590px;
+        height: 1100px;
     }
     .product{
         margin-right:80px;
@@ -518,6 +519,7 @@ input::-webkit-input-placeholder{
     }
     #exchange{
         position: relative;
+        left: 0;
         margin: 0 auto;
         margin-top: 32px;
         width: 600px;
@@ -525,6 +527,9 @@ input::-webkit-input-placeholder{
     }
     #classes{
         position: relative;
+        left: 0;
+        width: 600px;
+        margin: 0 auto;
     }
     #classes p{
         color: #333;
