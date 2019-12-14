@@ -1,0 +1,38 @@
+#Mfenqu {
+  overflow: hidden;
+  margin-top: 60px;
+  #Mfqleft {
+    width: 1109px;
+    float: left;
+    h2{
+      font-size: 30px;
+      color: #212121;
+      font-weight: normal;
+      display: inline-block;
+      margin: 0;
+    }
+    .MfqTitle{
+      overflow: hidden;
+      margin-bottom: 36px;
+      img {
+        vertical-align: middle;
+      }
+      span {
+        font-size: 18px;
+        color: #848484;
+        margin-left: 25px;
+      }
+    }
+    .MfqTitleR {
+      float: right;
+      margin-top: 10px;
+    }
+    .MfqDtlBlock {
+      overflow: hidden;
+    }
+  }
+  #Mfqright {
+    float: right;
+    width: 330px;
+  }
+}

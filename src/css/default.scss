@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  &:link {
+    color: #0B0101;
+  }
+  &:visited {
+    color: #0B0101;
+  }
+}
+input {
+  outline: none;
+}
+
+.MMain {
+  max-width: 1514px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 125px;
+}

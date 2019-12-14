@@ -1,0 +1,66 @@
+#background {
+  background: url("../static/home/背景板.png");
+  background-size: 100% auto;
+  padding-bottom: 56px;
+}
+#mainContainer {
+  max-width: 1366px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#sidebar {
+  width: 404px;
+  float: right;
+  position: relative;
+}
+.main{
+  float: left;
+}
+
+.renzheng {
+  background: #FFFFFF;
+  padding: 27px 49px 27px 20px;
+  margin-top: 14px;
+
+  p {
+   display: inline-block;
+  }
+}
+
+.myLive {
+  background: #FFFFFF;
+  padding: 16px 49px 20px 17px;
+  margin-top: 14px;
+  h2 {
+    font-size: 23px;
+    font-weight: normal;
+    color: #3A3838;
+    display: inline-block;
+    margin: 0;
+  }
+  #myLiveOpen {
+    float: right;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    background: #51BCEC;
+    border: 0.5px solid #BFBFBF;
+    height: 30px;
+    width: 72px;
+    margin-left: 5px;
+  }
+  #myLiveBottom {
+    text-align: center;
+    margin-top: 50px;
+    a {
+      color: #00A0E9;
+    }
+  }
+}
+#goTop {
+  position: absolute;
+  right: 0;
+  top: 1800px;
+}

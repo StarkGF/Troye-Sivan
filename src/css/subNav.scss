@@ -1,0 +1,61 @@
+#subNav {
+  display: flex;
+  flex-direction: row;
+  width: 937px;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  #subNav0 {
+    background: #FFFFFF;
+    box-shadow: none;
+    h2 {
+      color: #090000;
+    }
+  }
+  .subNavList {
+    width: 16%;
+    height: 80px;
+    background:#F19EC2;
+    margin-right: 24px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 5px 3px rgba(204,204,205,0.65);
+    .navIcon {
+      position: absolute;
+      bottom: 41px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    h2 {
+      position: absolute;
+      bottom: 14px;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      margin: 0;
+      font-weight: normal;
+      color: #FCF8F8;
+      font-size: 20px;
+    }
+  }
+  .search {
+    margin-left: 59px;
+    margin-right: 62px;
+    position: relative;
+    padding-top: 23px;
+    #searchInput {
+      width: 224px;
+      height: 33px;
+      padding: 9px 30px 10px 16px;
+      border: 0;
+      border-radius: 5px;
+    }
+    #searchIcon {
+      background: url("../static/home/小图标/搜索.png");
+      position: absolute;
+      right: 11px;
+      top: 32px;
+      height: 15px;
+      width: 15px;
+    }
+  }
+}

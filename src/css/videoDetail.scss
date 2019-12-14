@@ -1,0 +1,30 @@
+.videoDetail {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  height: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  .bigImg {
+    display: inline-block;
+    text-align: center;
+  }
+  h4,.bofang {
+    font-size: 10px;
+    color: #020C11;
+    font-weight: normal;
+  }
+  .date {
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .bofang {
+    position: absolute;
+    bottom: 0;
+    width: 78%;
+  }
+}

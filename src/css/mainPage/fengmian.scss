@@ -1,0 +1,89 @@
+#Mfengmian {
+  .Mfmrow1 {
+    display: flex;
+    justify-content: space-between;
+    .Mfmcol1,.Mfmcol2,.Mfmcol4 {
+      width: 169px;
+      height: 307px;
+      background: #F8F8F8;
+      border: 1px solid #E6E6E6;
+      border-radius: 5px;
+      position: relative;
+      img.Mfmrow1top {
+        width: 100%;
+      }
+      h4 {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        display: inline;
+        color: #73C9E5;
+        font-size: 25px;
+        font-weight: normal;
+      }
+    }
+    .Mfmcol3 {
+      width: 693px;
+      height: 304px;
+      background: url("../../static/mainPage/封面/banner 上/cover6.png");
+      background-size: 100% 100%;
+      border-radius: 5px;
+      position: relative;
+      #Mdouzi {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        .douzi {
+          margin-left: 20px;
+        }
+      }
+    }
+    .Mfmcol2 {
+      p {
+        margin-left: 24px;
+        margin-right: 24px;
+      }
+      #Mfmcol2p {
+        font-size: 12px;
+        color: #909090;
+      }
+    }
+    .Mfmcol4 {
+      p {
+        margin-right: 24px;
+        margin-left: 24px;
+        text-align: center;
+      }
+      #Mfmbofang {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      #Mfmcol4img {
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+    .Mfmcol5 {
+      background-size: 100% 100%;
+      width: 169px;
+      height: 307px;
+      border-radius: 5px;
+      background: url("../../static/mainPage/封面/banner 上/adv.png");
+    }
+    .Mfmcol1 {
+      #Mfmtouxiang {
+        z-index: 100;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 140px;
+      }
+    }
+  }
+  .Mfmrow2 {
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+  }
+}

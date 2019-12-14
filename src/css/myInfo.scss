@@ -1,0 +1,26 @@
+#myInfo {
+
+  .infoDtl {
+    padding: 20px 30px 38px 13px;
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    p {
+      font-size: 17px;
+      span {
+        float: right;
+      }
+      a {
+        color: #00A0E9;
+      }
+    }
+  }
+  .infoTitle {
+    text-align: right;
+    h2 {
+      display: inline-block;
+      margin: 0 0 10px 5px;
+      font-size: 30px;
+      font-weight: normal;
+    }
+  }
+}

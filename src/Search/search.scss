@@ -1,0 +1,107 @@
+#nav_C_box{
+    margin:0 auto;
+    margin-top: 79px;
+    width: 1154px;
+    height: 950px;
+    position: relative;
+}
+#nav_top_left{
+    width:182px;
+    height:23px;
+    font-size:18px;
+    font-family:Adobe Heiti Std;
+    font-weight:normal;
+    color:rgba(55,55,55,1);
+    position: relative;
+    top: 65px;
+    left: 288px;
+    }
+#nav_top_right{
+    width:109px;
+    height:42px;
+    font-size:18px;
+    font-family:Adobe Heiti Std;
+    font-weight:normal;
+    color:rgba(55,55,55,1);
+    float: right;
+    text-align: center;
+    
+    span{
+        color: #FB6970;
+        
+            cursor: pointer;
+        
+    }
+}
+.nav_Con{
+    width:771px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+.nav_bottom{
+    margin-top: 3px;
+    width:55px;
+    height:40px;
+    font-size:14px;
+    font-family:Adobe Heiti Std;
+    font-weight:normal;
+    color:rgba(29,29,29,1);
+}
+#nav_all{
+    position: absolute;
+    right:91px;
+    top:120px;
+}
+#last{
+    margin-bottom: 0;
+}
+#nav_bottom_right{
+    width:1100px;
+    height:40px;
+    font-size:20px;
+    font-family:Adobe Heiti Std;
+    font-weight:normal;
+    color:rgba(160,160,160,1);
+    line-height: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+    div{
+        float: right;
+    }
+  
+    img{
+        margin-left: 15px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    
+    
+}
+.nav_picture{
+    cursor: pointer;
+}
+
+#back{
+    width: 76px;
+    height: 76px;
+    position: fixed;
+    top:50%;
+    left: 0;
+    background-color: #eeeef4;
+    cursor: pointer;
+    div{
+        width: 49px;
+        height: 49px;
+        font-size:20px;
+       font-family:PingFang SC;
+       font-weight:bold;
+       color:rgba(128,127,127,1);
+       line-height:26px;
+       letter-spacing: 4px;
+       margin: auto auto;
+       padding-top: 12px;
+       box-sizing: border-box;
+    }
+}

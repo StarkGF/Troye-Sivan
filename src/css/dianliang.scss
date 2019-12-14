@@ -1,0 +1,43 @@
+.dianliang{
+  background: #FFFFFF;
+  padding: 10px 28px 19px 11px;
+  margin-top: 14px;
+  height: 170px;
+  position: relative;
+  .dianliangTop {
+    overflow: hidden;
+    h2 {
+      font-size: 23px;
+      font-weight: normal;
+      color: #3B3838;
+      display: inline-block;
+      margin: 0;
+    }
+    span {
+      margin-top: 5px;
+      float: right;
+    }
+  }
+  .DLdetail {
+    position: relative;
+    height: 110px;
+    #dianchi {
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+    h3 {
+      font-size: 28px;
+      color:#EAE25F ;
+      font-weight: normal;
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      transform: translate(-50%);
+    }
+    #chongdian {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

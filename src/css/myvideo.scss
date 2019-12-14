@@ -1,0 +1,100 @@
+#myVideo {
+  overflow: hidden;
+  width: 937px;
+  padding: 30px 66px 84px 44px;
+  background: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  img {
+    vertical-align: middle;
+  }
+  h2 {
+    font-size: 26px;
+    color: #000507;
+    margin: 0;
+  }
+  #topVideoTitle
+  h3{
+    margin-right: 10px;
+    display: inline-block;
+    }
+  a{
+    font-size: 13px;
+    margin-left: 10px;
+    color:#00A0E9;
+  }
+  h2,h3,h4 {
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  #topVideo {
+    overflow: hidden;
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+      width: 60%;
+      h3 {
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 11px;
+        color: #848282;
+      }
+      .info {
+        font-size: 13px;
+        color: #2F2A2A;
+        margin-top: 20px;
+        text-align: center;
+        span {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+#allVideo {
+  h3 {
+    display: inline-block;
+  }
+  .button {
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+    a {
+      color: #FFFFFF;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 30px;
+      background: #51BCEC;
+      border: 0.5px solid #BFBFBF;
+      height: 30px;
+      width: 72px;
+      margin-left: 5px;
+    }
+  }
+  ul {
+    display: inline-block;
+    margin-left: 53px;
+    //display: flex;
+    li {
+
+        float: left;
+      #border {
+        border-bottom: 4px solid #00A0E9;
+      }
+        a {
+          margin: 0;
+          padding: 5px;
+          //&:hover {
+          //  border-bottom: 4px solid #00A0E9;
+          //
+          //}
+        }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#person_pic{
+    width: 810px;
+    height: 177px;
+    display: flex;
+    justify-content: space-between;
+}
+.person_img{
+    width:160px;
+    height:200px;
+    font-size:10px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(2,12,17,1);
+    p{
+        margin: 0;
+    }
+}

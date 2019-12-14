@@ -1,0 +1,26 @@
+.MfqDtl {
+  float: left;
+  width: 25%;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  img.MfqDtlimg {
+    width: 257px;
+    height: 145px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 13px 0;
+    a:hover {
+      color: #00A1D6;
+    }
+  }
+  td {
+    width: 100px;
+    font-size: 13px;
+    color: #797979;
+    &:hover {
+      color: #00A1D6;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+#myPhoto {
+  overflow: hidden;
+  width: 937px;
+  padding: 30px 66px 34px 44px;
+  background: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin-top: 20px;
+  h2 {
+    font-size: 26px;
+    color: #000507;
+    margin: 0;
+    font-weight: normal;
+    display: inline-block;
+  }
+  #myPhotoTitle {
+    a {
+      color: #FFFFFF;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 30px;
+      background: #51BCEC;
+      border: 0.5px solid #BFBFBF;
+      height: 30px;
+      width: 72px;
+      margin-left: 5px;
+      float: right;
+    }
+  }
+  .myPhtList {
+    margin-top: 24px;
+    overflow: hidden;
+    .myPhtDtl {
+      float: left;
+      width: 25%;
+      padding: 20px;
+      img {
+        text-align: center;
+      }
+    }
+  }
+  .hasMargin {
+    margin-left: 25px;
+  }
+}

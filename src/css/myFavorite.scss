@@ -1,0 +1,44 @@
+#myFavorite {
+  overflow: hidden;
+  width: 937px;
+  padding: 30px 66px 54px 44px;
+  background: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin-top: 26px;
+  h2 {
+    font-size: 26px;
+    color: #000507;
+    margin: 0;
+    font-weight: normal;
+    display: inline-block;
+  }
+  .myFavList{
+    overflow: hidden;
+    margin-top: 49px;
+    .myFavDetail {
+      float: left;
+      width: 25%;
+      text-align: center;
+    }
+  }
+  #myFavoriteTitle {
+    a {
+      color: #FFFFFF;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 30px;
+      background: #51BCEC;
+      border: 0.5px solid #BFBFBF;
+      height: 30px;
+      width: 72px;
+      margin-left: 5px;
+      float: right;
+    }
+  }
+  h3 {
+    color: #000507;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
